@@ -32,5 +32,5 @@
 <text x="746" y="259">INGEST</text><text x="945" y="332">TRANSFORM</text><text x="1050" y="120">VISUALIZE</text>
 </g>
 <circle cx="852" cy="236" r="5" fill="#64e8c0"/><circle cx="1042" cy="237" r="5" fill="#77baff"/>
-<text x="1142" y="392" text-anchor="end" fill="#708fa9" font-family="Consolas,monospace" font-size="16">.py / .cs</text>
+<text x="1142" y="392" text-anchor="end" fill="#708fa9" font-family="Consolas,monospace" font-size="16">.py / .cs / .java</text>
 </svg>
