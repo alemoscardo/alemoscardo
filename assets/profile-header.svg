@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Alessandro Moscardo — Python, data and automation</title>
+<desc id="desc">A dark navy banner with mint and blue accents. From raw data to useful tools. A diagram connects data ingestion, transformation and visualization.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1726"/><stop offset="1" stop-color="#142d40"/></linearGradient>
+  <linearGradient id="line"><stop stop-color="#64e8c0"/><stop offset="1" stop-color="#77baff"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b9d5ef" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+<path d="M48 0H1152" stroke="url(#line)" stroke-width="4"/>
+<circle cx="62" cy="59" r="5" fill="#64e8c0"/>
+<text x="80" y="66" fill="#b3c9dc" font-family="Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="3">ALEMOSCARDO / DEVELOPER</text>
+<text x="56" y="142" fill="#f1f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Alessandro Moscardo</text>
+<text x="58" y="204" fill="#f1f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="600">From raw data</text>
+<text x="58" y="249" fill="#64e8c0" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="600">to useful tools.</text>
+<text x="58" y="312" fill="#b3c9dc" font-family="Segoe UI,Arial,sans-serif" font-size="22">Python / Data pipelines / Automation</text>
+<text x="58" y="343" fill="#b3c9dc" font-family="Segoe UI,Arial,sans-serif" font-size="22">Data visualization</text>
+<path d="M770 200H834Q852 200 852 218V256Q852 274 870 274H922" fill="none" stroke="url(#line)" stroke-width="3"/>
+<path d="M970 274H1024Q1042 274 1042 256V211" fill="none" stroke="#77baff" stroke-width="3"/>
+<g fill="#102333" stroke="#355168">
+<rect x="700" y="170" width="92" height="62" rx="12"/>
+<rect x="896" y="243" width="98" height="62" rx="12"/>
+<rect x="1000" y="139" width="100" height="75" rx="12"/>
+</g>
+<g stroke="#64e8c0" stroke-width="3" stroke-linecap="round">
+<path d="M724 189H765M724 200H757M724 211H748"/>
+<path d="M931 263L920 274L931 285M960 263L971 274L960 285M950 259L942 289" fill="none"/>
+</g>
+<g fill="#77baff"><rect x="1020" y="179" width="12" height="19" rx="2"/><rect x="1043" y="167" width="12" height="31" rx="2"/><rect x="1066" y="153" width="12" height="45" rx="2"/></g>
+<g fill="#b3c9dc" font-family="Segoe UI,Arial,sans-serif" font-size="17" text-anchor="middle" letter-spacing="2">
+<text x="746" y="259">INGEST</text><text x="945" y="332">TRANSFORM</text><text x="1050" y="120">VISUALIZE</text>
+</g>
+<circle cx="852" cy="236" r="5" fill="#64e8c0"/><circle cx="1042" cy="237" r="5" fill="#77baff"/>
+<text x="1142" y="392" text-anchor="end" fill="#708fa9" font-family="Consolas,monospace" font-size="16">.py / .cs</text>
+</svg>
