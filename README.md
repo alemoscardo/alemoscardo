@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Alessandro Moscardo — From raw data to useful tools. Python, data pipelines, automation and data visualization." width="100%">
+  <img src="assets/profile-header-monitor.png" alt="Alessandro Moscardo — Build tools. Automate workflows. Improve software. Software Engineering, Python Automation, Data &amp; Visualization. Connected code window, gear and desktop monitor. Python, C# and Java." width="100%">
 </p>
 
 <p align="center">
