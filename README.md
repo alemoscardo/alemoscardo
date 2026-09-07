@@ -17,7 +17,7 @@ My experience also reaches into **C#/.NET**, including refactoring an internal a
 ---
 
 ### Selected work
-Three projects, three different ways to turn data into something useful.
+Four projects, from data workflows and backend services to mobile applications.
 
 #### 01 &nbsp; / &nbsp; Finding patterns in football
 **[Football Match Outcome Predictor ↗](https://github.com/alemoscardo/ml-football-predictions)**
@@ -40,6 +40,13 @@ An industrial telemetry API that stores sensor readings and raises alerts for st
 
 `C#` `.NET 8` `PostgreSQL`
 
+#### 04 &nbsp; / &nbsp; Exploring the world of games
+**[GameBuzz ↗](https://github.com/alemoscardo/GameBuzz)**
+
+An Android app developed in Java as a university team project to explore games using the IGDB API. Built with Retrofit for API requests, Firebase for authentication and data management, and Room for local storage.
+
+`Java` `Android` `Firebase` `Retrofit` `Room`
+
 ---
 
 ### My toolbox
@@ -51,6 +58,8 @@ An industrial telemetry API that stores sensor readings and raises alerts for st
   <img src="https://img.shields.io/badge/Docker-142d40?style=flat-square&logo=docker&logoColor=77baff" alt="Docker">
   <img src="https://img.shields.io/badge/C%23-142d40?style=flat-square" alt="C#">
   <img src="https://img.shields.io/badge/.NET-142d40?style=flat-square&logo=dotnet&logoColor=77baff" alt=".NET">
+  <img src="https://img.shields.io/badge/Java-142d40?style=flat-square" alt="Java">
+  <img src="https://img.shields.io/badge/Android-142d40?style=flat-square&logo=android&logoColor=64e8c0" alt="Android">
 </p>
 
 **Current focus:** Python automation · Data pipelines · Data visualization
