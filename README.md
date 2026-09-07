@@ -1,49 +1,60 @@
-<div align="center">
+<p align="center">
+  <img src="assets/profile-header.svg" alt="Alessandro Moscardo — From raw data to useful tools. Python, data pipelines, automation and data visualization." width="100%">
+</p>
 
-# Alessandro Moscardo
+<p align="center">
+  <a href="https://www.linkedin.com/in/alessandro-moscardo/"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-64e8c0?style=flat-square&labelColor=142d40" alt="Connect on LinkedIn"></a>
+  &nbsp;
+  <a href="https://github.com/alemoscardo?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-My_projects-77baff?style=flat-square&labelColor=142d40" alt="Explore my projects"></a>
+</p>
 
-**Python · Data Pipelines · Automation · Data Visualization**
+### A little about me
 
-Turning data and repetitive workflows into practical tools.
+I write **Python scripts that automate repetitive processes**. I'm interested in the whole journey: preparing data, building reproducible pipelines, and making the results easier to explore through interactive applications.
 
-[LinkedIn](https://www.linkedin.com/in/alessandro-moscardo/) &nbsp; · &nbsp; [Projects](https://github.com/alemoscardo?tab=repositories)
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-
-</div>
+My experience also reaches into **C#/.NET**, including refactoring an internal application to improve its structure and maintainability.
 
 ---
 
-### About me
+### Selected work
+Three projects, three different ways to turn data into something useful.
 
-I write Python scripts to automate processes, with a focus on data pipelines and visualization. My personal projects explore reproducible machine learning workflows, interactive data apps, and backend APIs.
+#### 01 &nbsp; / &nbsp; Finding patterns in football
+**[Football Match Outcome Predictor ↗](https://github.com/alemoscardo/ml-football-predictions)**
 
-My professional experience also includes refactoring an internal C#/.NET application, with a focus on code structure and maintainability.
+From match statistics to Premier League outcome predictions. A reproducible training pipeline with shared feature engineering, temporal holdout evaluation, and a Streamlit app for exploring model results.
 
-### Selected projects
+`Python` `Machine Learning` `Streamlit`
 
-| Project | What it does | Technologies |
-| :--- | :--- | :--- |
-| **[Football Match Outcome Predictor](https://github.com/alemoscardo/ml-football-predictions)** | Premier League outcome prediction with a reproducible training pipeline, shared feature engineering, temporal holdout evaluation, and an interactive app. | Python · Machine Learning · Streamlit |
-| **[CSV CRUD API](https://github.com/alemoscardo/csv-crud-fastapi-docker)** | A lightweight API for creating, reading, updating, and deleting CSV records, packaged for straightforward local setup. | Python · FastAPI · Docker |
-| **[SignalWatch](https://github.com/alemoscardo/SignalWatch)** | Industrial telemetry API with stateful alert rules, built as a portfolio project using fictional data. | C# · .NET 8 · PostgreSQL |
+#### 02 &nbsp; / &nbsp; Giving CSV data an API
+**[CSV CRUD API ↗](https://github.com/alemoscardo/csv-crud-fastapi-docker)**
 
-### Areas of focus
+A small, focused backend project: create, read, update, and delete CSV records through a FastAPI service, packaged with Docker for straightforward local setup.
 
-- **Automation** — Python scripting to streamline repetitive processes.
-- **Data pipelines** — Reproducible preparation, feature engineering, and model training workflows.
-- **Data visualization** — Exploring ways to make data easier to understand through interactive applications.
-- **Software maintainability** — Refactoring existing tools and improving code organization.
+`Python` `FastAPI` `Docker`
+
+#### 03 &nbsp; / &nbsp; Turning sensor readings into alerts
+**[SignalWatch ↗](https://github.com/alemoscardo/SignalWatch)**
+
+An industrial telemetry API that stores sensor readings and raises alerts for stale, out-of-range, or rapidly changing values. A personal portfolio project built with fictional data.
+
+`C#` `.NET 8` `PostgreSQL`
 
 ---
 
-<div align="center">
+### My toolbox
 
-[Let's connect on LinkedIn](https://www.linkedin.com/in/alessandro-moscardo/)
+<p>
+  <img src="https://img.shields.io/badge/Python-142d40?style=flat-square&logo=python&logoColor=64e8c0" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-142d40?style=flat-square&logo=fastapi&logoColor=64e8c0" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Streamlit-142d40?style=flat-square&logo=streamlit&logoColor=64e8c0" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Docker-142d40?style=flat-square&logo=docker&logoColor=77baff" alt="Docker">
+  <img src="https://img.shields.io/badge/C%23-142d40?style=flat-square" alt="C#">
+  <img src="https://img.shields.io/badge/.NET-142d40?style=flat-square&logo=dotnet&logoColor=77baff" alt=".NET">
+</p>
 
-</div>
+**Current focus:** Python automation · Data pipelines · Data visualization
+
+<p align="center">
+  <sub>Have a project or an idea to discuss? <a href="https://www.linkedin.com/in/alessandro-moscardo/">Let's connect.</a></sub>
+</p>
