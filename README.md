@@ -1,69 +1,26 @@
-<p align="center">
-  <img src="assets/profile-header-monitor.png" alt="Alessandro Moscardo — Build tools. Automate workflows. Improve software. Software Engineering, Python Automation, Data &amp; Visualization. Connected code window, gear and desktop monitor. Python, C# and Java." width="100%">
-</p>
+### Alessandro Moscardo
+Software Engineer based in Doorn, the Netherlands · EU citizen
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/alessandro-moscardo/"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-64e8c0?style=flat-square&labelColor=142d40" alt="Connect on LinkedIn"></a>
-  &nbsp;
-  <a href="https://github.com/alemoscardo?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-My_projects-77baff?style=flat-square&labelColor=142d40" alt="Explore my projects"></a>
-</p>
+For 16 months I built software for railway systems at Alstom (via ALTEN).
+That code is private, so here is what it covered:
 
-### A little about me
+- **Data pipelines** — Python/Dagster pipelines turning daily 2 kHz train telemetry into
+  diagnostic reports and ML-ready datasets, with automated data-quality checks and alerts.
+- **C#/.NET** — refactored a WPF diagnostic tool into DI services and ViewModels; it now
+  supports 5 train fleets and 30,000+ signals through XML configuration.
+- **Configuration tooling** — Python tool that reads 140+ Excel interface workbooks, checks
+  them for duplicates and bit-offset conflicts, and generates the train-network XML
+  configuration, validated against the client's XSD schema.
 
-I write **Python scripts that automate repetitive processes**. I'm interested in the whole journey: preparing data, building reproducible pipelines, and making the results easier to explore through interactive applications.
+Lately I've also been building LLM applications with retrieval, tool calling and tests.
 
-My experience also reaches into **C#/.NET**, including refactoring an internal application to improve its structure and maintainability.
+**Selected projects**
+- **[SignalWatch AI](https://github.com/alemoscardo/SignalWatch-AI)** — RAG agent that investigates
+  telemetry alerts through read-only tools over PostgreSQL/pgvector, with citation-backed reports.
+- **Trainer-Red** *(private repository)* — co-developing a Transformer-based bot for competitive
+  Pokémon VGC Doubles that combines policy/value modeling with a Counterfactual Regret
+  Minimization (CFR) solver for imperfect-information decisions.
 
----
+**Stack:** Python · C#/.NET · SQL · Dagster · PostgreSQL · Docker · GitHub Actions · PyTorch · scikit-learn
 
-### Selected work
-Four projects, from data workflows and backend services to mobile applications.
-
-#### 01 &nbsp; / &nbsp; Turning sensor readings into alerts
-**[SignalWatch ↗](https://github.com/alemoscardo/SignalWatch)**
-
-An industrial telemetry API that stores sensor readings and raises alerts for stale, out-of-range, or rapidly changing values. A personal portfolio project built with fictional data.
-
-`C#` `.NET 8` `PostgreSQL`
-
-#### 02 &nbsp; / &nbsp; Finding patterns in football
-**[Football Match Outcome Predictor ↗](https://github.com/alemoscardo/ml-football-predictions)**
-
-From match statistics to Premier League outcome predictions. A reproducible training pipeline with shared feature engineering, temporal holdout evaluation, and a Streamlit app for exploring model results.
-
-`Python` `Machine Learning` `Streamlit`
-
-#### 03 &nbsp; / &nbsp; Exploring the world of games
-**[GameBuzz ↗](https://github.com/alemoscardo/GameBuzz)**
-
-An Android app developed in Java as a university team project to explore games using the IGDB API. Built with Retrofit for API requests, Firebase for authentication and data management, and Room for local storage.
-
-`Java` `Android` `Firebase` `Retrofit` `Room`
-
-#### 04 &nbsp; / &nbsp; Giving CSV data an API
-**[CSV CRUD API ↗](https://github.com/alemoscardo/csv-crud-fastapi-docker)**
-
-A small, focused backend project: create, read, update, and delete CSV records through a FastAPI service, packaged with Docker for straightforward local setup.
-
-`Python` `FastAPI` `Docker`
-
----
-
-### My toolbox
-
-<p>
-  <img src="https://img.shields.io/badge/Python-142d40?style=flat-square&logo=python&logoColor=64e8c0" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-142d40?style=flat-square&logo=fastapi&logoColor=64e8c0" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Streamlit-142d40?style=flat-square&logo=streamlit&logoColor=64e8c0" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Docker-142d40?style=flat-square&logo=docker&logoColor=77baff" alt="Docker">
-  <img src="https://img.shields.io/badge/C%23-142d40?style=flat-square" alt="C#">
-  <img src="https://img.shields.io/badge/.NET-142d40?style=flat-square&logo=dotnet&logoColor=77baff" alt=".NET">
-  <img src="https://img.shields.io/badge/Java-142d40?style=flat-square" alt="Java">
-  <img src="https://img.shields.io/badge/Android-142d40?style=flat-square&logo=android&logoColor=64e8c0" alt="Android">
-</p>
-
-**Current focus:** Python automation · Data pipelines · Data visualization
-
-<p align="center">
-  <sub>Have a project or an idea to discuss? <a href="https://www.linkedin.com/in/alessandro-moscardo/">Let's connect.</a></sub>
-</p>
+[LinkedIn](https://www.linkedin.com/in/alessandro-moscardo/)
