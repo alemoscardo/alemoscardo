@@ -20,6 +20,10 @@ Lately I've also been building LLM applications with retrieval, tool calling and
 - **Trainer-Red** *(private repository)* — co-developing a Transformer-based bot for competitive
   Pokémon VGC Doubles that combines policy/value modeling with a Counterfactual Regret
   Minimization (CFR) solver for imperfect-information decisions.
+- **[Premier League Outcome Model](https://github.com/alemoscardo/ml-football-predictions)**
+  ([live demo](https://alemoscardo-ml-football-predictions-streamlit-app-vkbxgd.streamlit.app/)) —
+  forecasts match results from pre-match data only (Elo, recent form, rest days), validated
+  chronologically; on an unseen season it lands within 0.01 log-loss of Bet365.
 
 **Stack:** Python · C#/.NET · SQL · Dagster · PostgreSQL · Docker · GitHub Actions · PyTorch · scikit-learn
 
