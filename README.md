@@ -15,16 +15,17 @@ That code is private, so here is what it covered:
 Lately I've also been building LLM applications with retrieval, tool calling and tests.
 
 **Selected projects**
+- **[Trainer Red](https://github.com/alemoscardo/alemoscardo/tree/main/trainer-red)** *(technical write-up; code private)* —
+  co-developed a self-play AI for competitive Pokémon VGC Doubles that peaked at **#4 worldwide**
+  on the official Showdown ladder: a battle simulator written from scratch in JAX (7.55M games/hour
+  on one GPU), a Transformer policy trained with PPO on 8 GPUs, and CFR search at play time.
 - **[SignalWatch AI](https://github.com/alemoscardo/SignalWatch-AI)** — RAG agent that investigates
   telemetry alerts through read-only tools over PostgreSQL/pgvector, with citation-backed reports.
-- **Trainer-Red** *(private repository)* — co-developing a Transformer-based bot for competitive
-  Pokémon VGC Doubles that combines policy/value modeling with a Counterfactual Regret
-  Minimization (CFR) solver for imperfect-information decisions.
 - **[Premier League Outcome Model](https://github.com/alemoscardo/ml-football-predictions)**
   ([live demo](https://alemoscardo-ml-football-predictions-streamlit-app-vkbxgd.streamlit.app/)) —
   forecasts match results from pre-match data only (Elo, recent form, rest days), validated
   chronologically; on an unseen season it lands within 0.01 log-loss of Bet365.
 
-**Stack:** Python · C#/.NET · SQL · Dagster · PostgreSQL · Docker · GitHub Actions · PyTorch · scikit-learn
+**Stack:** Python · C#/.NET · SQL · Dagster · PostgreSQL · Docker · GitHub Actions · PyTorch · JAX · scikit-learn
 
 [LinkedIn](https://www.linkedin.com/in/alessandro-moscardo/)
