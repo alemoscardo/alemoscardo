@@ -16,9 +16,10 @@ Lately I've also been building LLM applications with retrieval, tool calling and
 
 **Selected projects**
 - **[Trainer Red](https://github.com/alemoscardo/alemoscardo/tree/main/trainer-red)** *(technical write-up; code private)* —
-  co-developed a self-play AI for competitive Pokémon VGC Doubles that peaked at **#4 worldwide**
-  on the official Showdown ladder: a battle simulator written from scratch in JAX (7.55M games/hour
-  on one GPU), a Transformer policy trained with PPO on 8 GPUs, and CFR search at play time.
+  co-developed a self-play AI for competitive Pokémon VGC Doubles that reached **#2 worldwide**
+  on the official Showdown ladder (peak Elo 1784): battle engines in JAX and Rust, a Transformer
+  policy trained with PPO on 8 GPUs, and CFR search at play time. Now public as
+  **[wispcoach.com](https://wispcoach.com)**.
 - **[SignalWatch AI](https://github.com/alemoscardo/SignalWatch-AI)** — RAG agent that investigates
   telemetry alerts through read-only tools over PostgreSQL/pgvector, with citation-backed reports.
 - **[Premier League Outcome Model](https://github.com/alemoscardo/ml-football-predictions)**

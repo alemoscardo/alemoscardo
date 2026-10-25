@@ -1,16 +1,18 @@
 # Trainer Red
 
-**An AI that taught itself competitive Pokémon doubles and reached #4 on the global ladder.**
+**An AI that taught itself competitive Pokémon doubles and reached #2 on the global ladder.**
 
-<p align="center">
-  <img src="assets/ladder-rank4.png" width="390" alt="Official Pokémon Showdown ladder for Reg M-C best of three: CrusaderBigDam, the Trainer Red bot, at rank 4 with Elo 1674 and GXE 73.4%.">
-  <br>
-  <sub>Official Showdown ladder, Champions VGC Reg M-C best of three, 12 October 2026. The bot plays as <i>CrusaderBigDam</i>: peak Elo 1674, GXE 73.4%.</sub>
-</p>
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/ladder-rank2.png" width="100%" alt="Official Pokémon Showdown ladder for Reg M-C best of three, 14 October 2026: CrusaderBigDam, the Trainer Red bot, at rank 2 with Elo 1768."><br><sub><b>#2 worldwide</b>, 14 October 2026 · Elo 1768</sub></td>
+<td width="50%" align="center"><img src="assets/ladder-peak-elo.png" width="100%" alt="Official Pokémon Showdown ladder, 16 October 2026: CrusaderBigDam at rank 3 with its peak Elo of 1784."><br><sub><b>Peak Elo 1784</b>, 16 October 2026 · #3</sub></td>
+</tr>
+</table>
+<p align="center"><sub>Official Showdown ladder, Champions VGC Reg M-C best of three. The bot plays as <i>CrusaderBigDam</i>.</sub></p>
 
-<p align="center"><img src="assets/timeline.svg" width="100%" alt="Timeline: June 2026 first agent; September parity-first JAX engines never compile; 30 September vgcjax passes every parity gate; 5–6 October 127.6M games in 15 hours on 8 GPUs; 12 October rank 4 worldwide."></p>
+<p align="center"><img src="assets/timeline.svg" width="100%" alt="Timeline: June 2026 first agent; September parity-first JAX engines never compile; 30 September vgcjax passes every parity gate; 5–6 October 127.6M games in 15 hours on 8 GPUs; 14 October rank 2 worldwide."></p>
 
-VGC doubles is a hard game for an AI. Both players move at the same time, each turn offers up to 729 joint actions per side, the opponent's stats are hidden and every hit rolls dice. This is how a two-person side project went from zero to #4 on the global ladder in four months. *The source code is private; this write-up covers the ideas and the results.*
+VGC doubles is a hard game for an AI. Both players move at the same time, each turn offers up to 729 joint actions per side, the opponent's stats are hidden and every hit rolls dice. This is how a two-person side project went from zero to #2 on the global ladder in four months. *The source code is private; this write-up covers the ideas and the results.*
 
 ---
 
@@ -26,6 +28,8 @@ So the engine, **vgcjax**, was rewritten from scratch around what GPUs are good 
 
 Speed is useless if the simulator plays a different game. vgcjax does not copy Showdown's random sequence, so it is checked statistically instead. Across 50 team pairings with 2,000 games each on both simulators, **every win rate lands within ±3 points** of Showdown's. **319,990 of 320,000 damage rolls** match exactly. A 10,000-game fuzz found zero invalid states. The thresholds were fixed before the tests and never moved.
 
+Later the project went one step further: a **second engine in Rust**, a function-by-function port of Showdown that reproduces it **identically on 10,000 battles**, logs and random draws included. It is now the default engine for both training and search: training runs **26% faster** on the same GPU and the play-time search **2.4× faster**.
+
 <p align="center"><img src="assets/parity-chart.svg" width="100%" alt="All 50 team pairings within plus or minus 3 percentage points of Showdown's win rate."></p>
 
 ### 3. Teaching it to play
@@ -40,12 +44,16 @@ On the ladder the network does not play alone. At every decision it shortlists p
 
 ### 5. Putting it on the ladder
 
-A Node.js client turns Showdown's live battle protocol into the engine's view of the game. It plays ranked best-of-three series against humans, logs every decision so it can be replayed, and stops on any fault. The latest campaign won **62 of 106 series**, and on 12 October 2026 the account peaked at **#4 worldwide**. A companion React web app lets a player face the bot and inspect the payoff matrix behind each of its moves.
+A Node.js client turns Showdown's live battle protocol into the engine's view of the game. It plays ranked best-of-three series against humans, logs every decision so it can be replayed, and stops on any fault. On 14 October 2026 the account reached **#2 worldwide**, and two days later it set its **peak Elo of 1784**.
+
+### 6. Opening it to players
+
+The same AI now powers **[wispcoach.com](https://wispcoach.com)**, a public web app built with React and TypeScript. Players battle Wisp at the level they choose, solve puzzles and get their own games analysed.
 
 ---
 
-**My role.** I led the simulator (design, most mechanics, validation) and built the search, the web app and the ladder bot. My collaborator built the first training pipeline; since October I have led the later training generations, the evaluation and the ladder campaigns.
+**My role.** I led both engines (design, most mechanics, validation; the Rust port) and built the search and the ladder bot; the public site is a team effort. My collaborator built the first training pipeline; since October I have led the later training generations, the evaluation and the ladder campaigns.
 
-<sub>JAX · XLA · Python · CUDA · multi-GPU training · Node.js · TypeScript · React · Docker — Pokémon is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc.; independent project.</sub>
+<sub>JAX · XLA · Rust · Python · CUDA · multi-GPU training · Node.js · TypeScript · React · Docker — Pokémon is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc.; independent project.</sub>
 
 [← Back to my GitHub profile](https://github.com/alemoscardo)
